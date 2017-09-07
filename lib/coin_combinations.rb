@@ -5,7 +5,11 @@ class Integer
     number_input = self
     coins = ''
     until (number_input  < 1)
-      if(number_input >= 10)
+      if(number_input >= 25)
+        quarter_number = number_input / 25
+        coins += quarter_number.to_s + " quarters "
+        number_input -= quarter_number * 25
+      elsif(number_input >= 10)
         dime_number = number_input / 10
         coins += dime_number.to_s + " dimes "
         number_input -= dime_number * 10
@@ -20,5 +24,8 @@ class Integer
     end
     coins
   end
-
 end
+
+puts "Enter a number in cents"
+user_number = gets.chomp
+puts user_number.to_i.coin_combinations

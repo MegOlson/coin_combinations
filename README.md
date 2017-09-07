@@ -16,3 +16,6 @@
 * Returns number value in quarters, dimes, nickels and pennies.
   * Example input: 33
   * Example output: 1 quarter 1 nickel 3 pennies
+* Gets user input number and returns value in quarters, dimes, nickels, and pennies
+  * Example Input: 28
+  * Example Output: 1 quarter 3 pennies
