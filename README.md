@@ -12,7 +12,7 @@
   * Example output: 1 nickel 4 pennies
 * Returns number value in dimes, nickels and pennies
   * Example input: 14
-  * Example output: 1 dime four pennies
+  * Example output: 1 dime 4 pennies
 * Returns number value in quarters, dimes, nickels and pennies.
   * Example input: 33
   * Example output: 1 quarter 1 nickel 3 pennies
