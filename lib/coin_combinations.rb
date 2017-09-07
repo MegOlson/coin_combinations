@@ -25,7 +25,13 @@ class Integer
     coins
   end
 end
-
-puts "Enter a number in cents"
-user_number = gets.chomp
-puts user_number.to_i.coin_combinations
+user_number = ""
+until(user_number == "exit") do
+  puts "Enter a number in cents ('exit' to quit)"
+  user_number = gets.chomp
+  if user_number == "exit"
+    break
+  else
+    puts user_number.to_i.coin_combinations
+  end
+end
